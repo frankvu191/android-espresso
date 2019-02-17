@@ -55,7 +55,7 @@ public class MainActivityTest {
         loginButton.perform(click());
 
         /* Wait for search text to display and type in
-           This is not good practice and can be improved by using IdlingResource
+           This is not good practice and should be improved by implicit wait
          */
         SystemClock.sleep(1500);
 
